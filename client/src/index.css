@@ -1,0 +1,73 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+.btn__auth {
+    width: 10rem;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card-action {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-field .prefix.active {
+    color: #8bc34a;
+}
+
+.input-field {
+    width: 23rem;
+    color: white!important;
+
+}
+
+.input-field label {
+    color: #fff!important;
+    font-size: 18px!important;
+}
+
+.input-field label:hover {
+    /*color: #8bc34a!important;*/
+    font-size: 18px!important;
+}
+
+.input-field input[type=text] {
+    border-bottom: 1px solid #00897b!important;
+    box-shadow: 0 1px 0 0 #fff!important;
+    color: #8bc34a!important;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #8bc34a!important;
+    box-shadow: 0 1px 0 0 #8bc34a!important;
+    color: white!important;
+    font-size: 22px!important;
+}
+
+.input-field input[type=password] {
+    border-bottom: 1px solid #00897b!important;
+    box-shadow: 0 1px 0 0 #fff!important;
+    color: #8bc34a!important;
+}
+
+
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #8bc34a!important;
+    box-shadow: 0 1px 0 0 #8bc34a!important;
+    color: white!important;
+    font-size: 22px!important;
+}
+
+.input-field input[type=text]:focus + label {
+    color: #8bc34a!important;
+}
+
+.input-field input[type=password]:focus + label {
+    color: #8bc34a!important;
+}

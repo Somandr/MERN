@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "somandr mern",
+    "mongoUri": "mongodb+srv://somandr:nJi98uHb@cluster0-x8iub.azure.mongodb.net/app?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}
